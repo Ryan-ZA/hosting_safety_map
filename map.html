@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jVectorMap demo</title>
+  <link rel="stylesheet" href="jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="jquery-jvectormap-world-mill-en.js"></script>
+  <script src="data.js"></script>
+</head>
+<body>
+  <div id="world-map" style="width: 900px; height: 700px"></div>
+  <script>
+	$('#world-map').vectorMap({
+	  map: 'world_mill_en',
+	  series: {
+		regions: [{
+		  values: safetyData,
+		  scale: ['#FF0000', '#00FF00'],
+		  normalizeFunction: 'linear'
+		}]
+	  },
+	  onRegionLabelShow: function(e, el, code){
+		  if (safetyData[code] == 0) {
+			  el.html(el.html()+' - '+code+'<hr><strong>Unsafe for hosting</strong><br>'+infoData[code]);
+		  } else if (safetyData[code] == 1) {
+			  el.html(el.html()+' - '+code+'<hr><strong>Rumorted to be unsafe for hosting</strong><br>'+infoData[code]);
+		  } else if (safetyData[code] == 2) {
+			  el.html(el.html()+' - '+code+'<hr><strong>Possibly safe for hosting</strong><br>'+infoData[code]);
+		  }	else {
+			  el.html(el.html()+' - '+code+'<hr>Unknown');
+		  }
+	  },
+	  onRegionClick: function(el, code){
+		  alert(infoData[code]);
+	  }
+	});
+  </script>
+</body>
+</html>
