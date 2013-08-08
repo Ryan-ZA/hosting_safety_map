@@ -5,6 +5,8 @@ var safetyData = {
 	"GB" : 1,
 	"RU" : 1,
 	"CN" : 1,
+	"CA" : 2,
+	"CH" : 2,
 };
 
 var infoData = {
@@ -14,4 +16,6 @@ var infoData = {
 	"GB" : "Rumored to be worse than USA?",
 	"RU" : "Likely a bad bet",
 	"CN" : "Likely a bad bad",
+	"CA" : "Data privacy laws appear to apply to government spying? http://en.wikipedia.org/wiki/Canadian_privacy_law",
+	"CH" : "Generally believed to be a privacy safe haven",
 };
