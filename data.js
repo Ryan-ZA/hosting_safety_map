@@ -8,6 +8,15 @@ var safetyData = {
 	"CA" : 2,
 	"CH" : 2,
 	"SE" : 0,
+	"TH" : 0,
+	"VN" : 0,
+	"LA" : 0,
+	"KH" : 1,
+	"MM" : 1,
+	"SG" : 0,
+	"HK" : 1,
+	"ID" : 1,
+	"MY" : 1,
 };
 
 var infoData = {
@@ -19,5 +28,14 @@ var infoData = {
 	"CN" : "Likely a bad bad",
 	"CA" : "Data privacy laws appear to apply to government spying? http://en.wikipedia.org/wiki/Canadian_privacy_law",
 	"CH" : "Generally believed to be a privacy safe haven",
-	"SE" : "Unsafe for hosting. Sweden's FRA law allows snooping and recording all border-crossing traffic and more. Wikileaks diplomatic cables confirm far-reaching intelligence cooperation between FRA and NSA. Swedish police can also raid a datacenter and seize all servers, from all companies, in the DC, even when the target is only one company. Sweden has also shut down political web sites (over a cartoon) on at least one occasion.  http://en.wikipedia.org/wiki/FRA_law http://en.wikipedia.org/wiki/The_Pirate_Bay_raid http://news.bbc.co.uk/2/hi/europe/4700414.stm http://falkvinge.net/2013/07/07/documents-sweden-wiretapping-russias-international-traffic-for-the-nsa/ " 
+	"SE" : "Unsafe for hosting. Sweden's FRA law allows snooping and recording all border-crossing traffic and more. Wikileaks diplomatic cables confirm far-reaching intelligence cooperation between FRA and NSA. Swedish police can also raid a datacenter and seize all servers, from all companies, in the DC, even when the target is only one company. Sweden has also shut down political web sites (over a cartoon) on at least one occasion.  http://en.wikipedia.org/wiki/FRA_law http://en.wikipedia.org/wiki/The_Pirate_Bay_raid http://news.bbc.co.uk/2/hi/europe/4700414.stm http://falkvinge.net/2013/07/07/documents-sweden-wiretapping-russias-international-traffic-for-the-nsa/ ",
+	"TH" : "Not Safe (USA has massive infrastructure in the country, look for Voice of America radio stations which bristle with more sat dishes and antennas than BBC or CNN could use in their headquarters and you can guess what they really are",
+	"VN" : "Not Safe - https://news.ycombinator.com/item?id=6183893",
+	"LA" : "Not sure, but the Laos government is not terribly warm to the American government. However I expect that they are open to the Vietnam and Chinese governments. Either way, no place to host.",
+	"KH" : "Not sure, their recent extradition of the Pirate Bay co-founder on trumped up visa issues was likely from a simple bribe paid to a government official. And anyway, services and infrastructure is still thin on the ground. There still isn't even one data center in the country that is independent of an ISP (I'm working to change that :) - https://news.ycombinator.com/item?id=6183893",
+	"MM" : "No infrastructure and won't be safe from local snooping when it is, though I don't think they will share with the West either.",
+	"SG" : "Not safe. - https://news.ycombinator.com/item?id=6183893",
+	"HK" : "Was safe before the handover in 1997, I owned an ISP there at the time and there was no meddling that I could see. But it's a very different world now. I would tend to stay away.",
+	"ID" : "Not sure",
+	"MY" : "Not sure",
 };
