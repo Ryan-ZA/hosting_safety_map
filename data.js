@@ -17,6 +17,7 @@ var safetyData = {
 	"HK" : 1,
 	"ID" : 1,
 	"MY" : 1,
+	"NO" : 1,
 };
 
 var infoData = {
@@ -38,4 +39,5 @@ var infoData = {
 	"HK" : "Was safe before the handover in 1997, I owned an ISP there at the time and there was no meddling that I could see. But it's a very different world now. I would tend to stay away.",
 	"ID" : "Not sure",
 	"MY" : "Not sure",
+	"NO" : "Norway has extensive history of PST (police security service) carrying out illegal politically motivated surveillance. Norway is implementing the EU 'Data retention Directive, 2006/24/EC.",
 };
