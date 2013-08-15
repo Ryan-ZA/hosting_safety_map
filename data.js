@@ -3,7 +3,7 @@ var safetyData = {
 	"DE" : 0,
 	"IS" : 2,
 	"GB" : 1,
-	"RU" : 1,
+	"RU" : 0,
 	"CN" : 1,
 	"CA" : 1,
 	"CH" : 2,
@@ -18,6 +18,7 @@ var safetyData = {
 	"ID" : 1,
 	"MY" : 1,
 	"NO" : 1,
+	"TH" : 0,
 };
 
 var infoData = {
@@ -25,7 +26,7 @@ var infoData = {
 	"DE" : "Germany has laws which force every mail provider to install an access point to the German authorities and intelligence agencies",
 	"IS" : "No rumours as yet?",
 	"GB" : "Rumored to be worse than USA?",
-	"RU" : "Likely a bad bet",
+	"RU" : "Russian State Duma Bill 89417-6 created a blacklist of Internet sites considered illegal.  All ISPs must install a FSB 'SORM' snooping device. All traffic must be mirrored to operational search activities control ('пункт управления ОРМ'') http://en.wikipedia.org/wiki/SORM#SORM-2 http://minsvyaz.ru/common/upload/prikaz_16-01-2008_N6.pdf http://en.wikipedia.org/wiki/Internet_censorship_by_country#.C2.A0Russia",
 	"CN" : "Likely a bad bad",
 	"CA" : "Data privacy laws appear to apply to government spying? http://en.wikipedia.org/wiki/Canadian_privacy_law - but has an intelligence treaty with the NSA",
 	"CH" : "Generally believed to be a privacy safe haven",
@@ -40,4 +41,5 @@ var infoData = {
 	"ID" : "Not sure",
 	"MY" : "Not sure",
 	"NO" : "Norway has extensive history of PST (police security service) carrying out illegal politically motivated surveillance. Norway is implementing the EU 'Data retention Directive, 2006/24/EC.",
+	"TH" : "Year by year Internet censorship has grown, with its focus shifting to lèse majesté, national security, and political issues. http://en.wikipedia.org/wiki/Internet_censorship_in_Thailand "
 };
