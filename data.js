@@ -19,6 +19,8 @@ var safetyData = {
 	"MY" : 1,
 	"NO" : 1,
 	"TH" : 0,
+	"NZ" : 1,
+	"AU" : 1
 };
 
 var infoData = {
@@ -42,4 +44,6 @@ var infoData = {
 	"MY" : "Not sure",
 	"NO" : "Norway has extensive history of PST (police security service) carrying out illegal politically motivated surveillance. Norway is implementing the EU 'Data retention Directive, 2006/24/EC.",
 	"TH" : "Year by year Internet censorship has grown, with its focus shifting to lèse majesté, national security, and political issues. http://en.wikipedia.org/wiki/Internet_censorship_in_Thailand "
+	"NZ" : "Given the amount of cooperation with the FBI over Megaupload",
+	"AU" : "Heavily shares intelligence with USA"
 };
